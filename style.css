@@ -116,9 +116,11 @@
 
  .sukis{
      display: flex;
+     align-items: center;
+    
      
-     background: rgba(113, 255, 47, 0.747);
-     height: 90px;
+     background: rgba(150, 221, 35, 0.959);
+     height: 100px;
      color: white;
      border-top: 15px solid white;
      margin-left: 10px;
@@ -128,6 +130,14 @@
      display: flex;
      justify-content: center;
      width: 50%;
+
+ }
+ .sukis-nuoroda{
+     display: block;
+     width: 100%;
+    
+     height: 100px;
+
  }
  
     .korteliu-remas{
@@ -138,14 +148,36 @@
  }
  .korteles1{
      display: flex;
+     align-content: center;
+     flex-wrap: wrap;
+    
+     
+     
+    
+     text-align: justify;
+     
+
      width: 30%;
      height: 210px;
      background: rgb(206, 197, 197);
    margin-top: 15px;
    margin-left: 15px;
+   
   
-     
  }
+ .kortele1-tekstas{
+     display: block;
+     flex-wrap: wrap;
+  text-align: center;
+  padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: blue;
+    
+}
+#teksto-spalva{
+    color: rgb(139, 139, 134);
+}
  
  #spalvos1{
     background: rgb(118, 3, 172);
@@ -154,8 +186,40 @@
     background: rgb(36, 56, 236);
  }
   #spalvos3{
-     background: red;
+     background: white
  }
+ .kvadrato-virsus-apacia{
+     display: flex;
+     width: 100%;
+     height: 20pxpx;
+
+ }
+ .kvadrato-vidurys{
+    display: flex;
+    width: 100%;
+    height: 80pxpx;
+ }
+ .mazas-kvadratas{
+     display: flex;
+     
+     flex-direction: row;
+     text-align: center;
+     
+
+     width: 80px;
+     height: 60px;
+     border: 1px solid blue;
+     border-radius: 5px;
+     margin: 5px;
+ }
+ .tekstas{
+     display: flex;
+     height: 60px;
+     width: 130px;
+     text-align: center;
+     line-height: 0.8;
+ }
+
  .mygtukai{
      display: flex;
      flex-grow: 1;
