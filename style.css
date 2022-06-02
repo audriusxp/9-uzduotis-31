@@ -55,10 +55,19 @@
   margin-left: 20px;
   margin-left: 20px;
     height: 30px;
-    width: 80px;
+    width: 100px;
     border: 1px solid white;
     border-radius: 4px;
+    color: white;
    
+}
+.mygtuko-nuoroda{
+    height: 30px;
+    width: 100px;
+    display: block;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
 }
 .hederis2{
     display: flex;
@@ -74,15 +83,34 @@
    }
 .hederio2-mygtukai{
     display: flex;
+    justify-content: center;
     align-items: center;
+    
     flex-grow: 6;
     height: 60px;
     border-left: 1px solid rgb(38, 86, 241);
     border-right:1px solid rgb(38, 86, 241);
     color: white;
     }
+    .nuoroda{
+
+        line-height: 60px;
+        display: block;
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        
+
+ }
  .foto{
      display: flex;
+     width: 800px;
+     height: 251px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-left: 10px;
+     margin-right: 100px;
+     margin-top: 30px;
     }
 
 
@@ -93,6 +121,8 @@
      height: 90px;
      color: white;
      border-top: 15px solid white;
+     margin-left: 10px;
+     margin-right: 10px;
  }
  .sukis-text{
      display: flex;
@@ -113,6 +143,7 @@
      background: rgb(206, 197, 197);
    margin-top: 15px;
    margin-left: 15px;
+  
      
  }
  
@@ -129,6 +160,7 @@
      display: flex;
      flex-grow: 1;
      
+     justify-content: center;
      align-items: center;
      width: 15%;
      height: 40px;
