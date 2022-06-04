@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 80px;
-    background: rgb(46, 46, 255);
+    height: 140px;
+    background: rgba(85, 100, 240, 0.815);
     padding-bottom: 10px;
 
 }
@@ -17,38 +17,27 @@
  align-content: space-around;
     justify-content: end;
     width: 33%;
-   
-   
-   
-}
+   }
 .hederio1-mygtukai{
     display: flex;
     align-items: center;
     height: 30px;
-   
     flex-grow: 3;
-    
     border-right: 1px solid white;
     color: white;
-    
-}
+    }
 .hederio1-vidurys{
      display: flex;
      align-items: center;
      justify-content: center;
-    
      width: 100%;
      height: 36px;
      color: white;
+     margin-top: 5px;
 }
 #uZRASAS{
     color: rgba(238, 235, 235, 0.795);
 }
-
-
-
-
-
 
 .hederio1-krastas{
     display: flex;
@@ -68,6 +57,13 @@
     border-radius: 4px;
     color: white;
     text-decoration: none;
+}
+.mygtuko-nuoroda1{
+    height: 30px;
+    display: block;
+     text-decoration: none;
+    color: white;
+    margin-top: 15px;
 }
 .hederis2{
     display: flex;
@@ -104,7 +100,7 @@
  }
  .foto{
      display: flex;
-     width: 800px;
+     width: 100%;
      height: 251px;
      margin-left: 10px;
      margin-right: 10px;
@@ -117,8 +113,7 @@
  .sukis{
      display: flex;
      align-items: center;
-    
-     
+   
      background: rgba(150, 221, 35, 0.959);
      height: 100px;
      color: white;
@@ -128,15 +123,22 @@
  }
  .sukis-text{
      display: flex;
-     justify-content: center;
-     width: 50%;
+    
+   align-items: flex-start;
+     
+     width: 399px;
 
  }
  .sukis-nuoroda{
      display: block;
-     width: 100%;
+     width: 399px;
+    height: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+     margin-top: 25px;
+   
     
-     height: 100px;
 
  }
  
@@ -150,20 +152,25 @@
      display: flex;
      align-content: center;
      flex-wrap: wrap;
-    
-     
-     
-    
      text-align: justify;
-     
-
-     width: 30%;
+      width: 30%;
      height: 210px;
      background: rgb(206, 197, 197);
    margin-top: 15px;
    margin-left: 15px;
    
   
+ }
+ .nuoroda-kvadratu{
+     display: block;
+     
+     height: 60px;
+     width: 30%;
+    text-decoration: none;
+    margin-left: 25px;
+    color: rgba(85, 100, 240, 0.815);
+
+   
  }
  .kortele1-tekstas{
      display: block;
@@ -172,7 +179,7 @@
   padding-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
-    color: blue;
+    
     
 }
 #teksto-spalva{
@@ -183,13 +190,15 @@
     background: rgb(118, 3, 172);
  }
  #spalvos2{
-    background: rgb(36, 56, 236);
+    background: rgba(85, 100, 240, 0.815);
  }
   #spalvos3{
      background: white
  }
  .kvadrato-virsus-apacia{
      display: flex;
+     margin: 0%;
+     padding-top: 0%;
      width: 100%;
      height: 20pxpx;
 
@@ -201,12 +210,11 @@
  }
  .mazas-kvadratas{
      display: flex;
-     
+    align-content: space-between;
+    
      flex-direction: row;
-     text-align: center;
      
-
-     width: 80px;
+     width: 60px;
      height: 60px;
      border: 1px solid blue;
      border-radius: 5px;
@@ -214,6 +222,7 @@
  }
  .tekstas{
      display: flex;
+
      height: 60px;
      width: 130px;
      text-align: center;
@@ -228,11 +237,33 @@
      align-items: center;
      width: 15%;
      height: 40px;
-     border: 1px solid blue;
+     border: 1px solid rgba(85, 100, 240, 0.815);
+     border-radius: 3px;
+     color: rgba(85, 100, 240, 0.815);;
+     
      margin-bottom: 15px;
      margin-left: 15px;
      margin-right: 15px;
      margin-top: 15px;
+
+ }
+ .nuoroda-kvadratu1{
+    display: block;
+    line-height: 0.9;
+   text-align: start;
+     
+    height: 60px;
+    width: 90%;
+   text-decoration: none;
+   margin-left: 25px;
+   color: white
+}
+ .nuoroda-mygtuku2{
+     display: block;
+     width: 10%;
+     height: 40px;
+     
+     
  }
 .footeris{
     display: flex;
