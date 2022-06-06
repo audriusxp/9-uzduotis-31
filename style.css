@@ -234,10 +234,19 @@
      
      
  }
+ .nuoroda-kvadratu1{
+    display: block;
+    line-height: 0.9;
+   text-align: start;
+      height: 60px;
+    width: 90%;
+   text-decoration: none;
+   margin-left: 25px;
+   color: white
+}
  .tekstas{
      display: flex;
-
-     height: 60px;
+      height: 60px;
      width: 130px;
      text-align: center;
      line-height: 0.8;
@@ -253,29 +262,24 @@
      height: 40px;
      border: 1px solid rgba(85, 100, 240, 0.815);
      border-radius: 3px;
-     color: rgba(85, 100, 240, 0.815);;
+     color: rgba(85, 100, 240, 0.815);
      
      margin-bottom: 15px;
      margin-left: 15px;
      margin-right: 15px;
      margin-top: 15px;
 
- }
- .nuoroda-kvadratu1{
-    display: block;
-    line-height: 0.9;
-   text-align: start;
-     
-    height: 60px;
-    width: 90%;
-   text-decoration: none;
-   margin-left: 25px;
-   color: white
-}
+    }
+    
  .nuoroda-mygtuku2{
      display: block;
-     width: 10%;
+     text-align: center;
+     width: 100%;
      height: 40px;
+     text-decoration: none;
+     color: rgba(85, 100, 240, 0.815);
+     margin-top: 15px;
+     
      
      
  }
